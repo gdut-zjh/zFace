@@ -1,0 +1,13 @@
+<!--miniprogram/pages/main/main.wxml-->
+<view bindtap='doUpload'>
+  <button>开始识别</button>
+</view>
+
+<view wx:if="{{status}}">
+  <image src="{{ img_url }}"></image>
+  <view>Age： {{ Age }}</view>
+  <view>Expression： {{ Expression }}</view>
+  <view>Gender： {{ Gender }}</view>
+  <view>Beauty： {{ Beauty }}</view>
+  <view>Glass： {{ Glass }}</view>
+</view>

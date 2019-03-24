@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/myInfo/myInfo",
+    "pages/explore/explore"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#289AE6",
+    "navigationBarTitleText": "zFace",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#289AE6",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "试试",
+        "iconPath": "images/试试.png",
+        "selectedIconPath": "images/试试-cur.png"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "text": "探索",
+        "iconPath": "images/探索.png",
+        "selectedIconPath": "images/探索-cur.png"
+      },
+      {
+        "pagePath": "pages/myInfo/myInfo",
+        "text": "我的",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/我的-cur.png"
+      }
+    ]
+  }
+}

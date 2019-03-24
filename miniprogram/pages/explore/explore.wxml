@@ -1,0 +1,17 @@
+<!--miniprogram/pages/explore/explore.wxml-->
+<view class="body">
+  <!-- 顶部导航 -->
+  <view class="nav">
+    <view wx:for="{{ menu_data }}" class="{{ cur_nav_index == index ? 'nav-cur' : '' }}" bindtap="changeMenu" data-index="{{ index }}">
+      {{ item }}
+    </view>
+  </view>
+
+  <!-- 试一试 -->
+  <view wx:if="{{ cur_nav_index == 0 }}">111</view>
+  <!-- 看一看 -->
+  <view wx:if="{{ cur_nav_index == 1 }}">222</view>
+  <!-- 搜一搜 -->
+  <view wx:if="{{ cur_nav_index == 2 }}">333</view>
+
+</view>

@@ -1,0 +1,5 @@
+/* miniprogram/pages/explore/explore.wxss */
+/* 顶部导航 */
+.nav{display: flex;font-size: 32rpx;}
+.nav view{width: 33%;text-align: center;padding: 24rpx 0;color: rgba(0, 0, 0, .6);}
+.nav .nav-cur{border-bottom: 4rpx solid #289AE6;color: #289AE6;}
